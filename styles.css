@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* CSS RESET BY MYE WEB */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; /* loaded 300 and 700*/
+}
+header {
+  border-top: 40px solid #7396d6;
+  background-image: url('sun.png');
+  /*Sun from https://openclipart.org/detail/3367/decorative-sun*/
+  background-repeat: no-repeat;
+}
+header h1 {
+  color: #e05b13;
+  font-size: 4rem;
+
+  padding: 0.5rem 0 0.5rem 60px;
+}
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  background-color: #7396d6;
+}
+nav li {
+  float: left;
+  width: 25%;
+}
+nav li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+  border-right: 1px solid #000;
+}
+nav li.active a {
+  background-color: #4b76c4;
+}
+main {
+  padding: 0.3rem 2%;
+  display: block;
+}
+main h1 {
+  color: #4b2b1a;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+main h2 {
+  color: #4b2b1a;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+main p {
+  line-height: 125%;
+  padding-bottom: 0.25rem;
+}
+main fieldset {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+  margin-top: 1rem;
+  font: 30px;
+}
+main fieldset legend {
+  color: #7396d6;
+  font-weight: 700;
+}
+
+main form label {
+  display: block;
+  padding: 0.4rem 0;
+  font-size: 1.2rem;
+}
+main form span {
+  display: block;
+  font-size: 0.7rem;
+  color: #7396d6;
+}
+
+main form label span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+main form input {
+  width: 16rem;
+  font-size: 0.95rem;
+}
+main form select {
+  width: 15rem;
+}
+main button {
+  width: 240px;
+  border: none;
+  padding: 0.8rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background: #7396d6;
+  background: linear-gradient(to bottom, #7396d6, 1%, #002751 100%);
+}
+
+footer {
+  text-align: center;
+  background: #7396d6;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+}
+
+.keepOpen {
+  clear: both;
+}
+
+main figure img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 30em) {
+  main figure {
+    width: 70%;
+    float: right;
+  }
+}
